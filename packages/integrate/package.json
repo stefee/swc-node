@@ -2,7 +2,11 @@
   "name": "@swc-node/integrate",
   "version": "0.1.1",
   "description": "Integrate testing",
-  "keywords": ["ava", "swc", "ts-node"],
+  "keywords": [
+    "ava",
+    "swc",
+    "ts-node"
+  ],
   "author": "LongYinan <lynweklm@gmail.com>",
   "homepage": "https://github.com/Brooooooklyn/swc-node",
   "license": "MIT",
@@ -16,7 +20,7 @@
   },
   "devDependencies": {
     "@swc-node/core": "^1.8.2",
-    "@types/jest": "^27.4.0",
-    "jest": "^27.4.7"
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
   }
 }

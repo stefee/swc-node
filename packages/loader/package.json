@@ -18,7 +18,11 @@
   "homepage": "https://github.com/Brooooooklyn/swc-node",
   "license": "MIT",
   "main": "./index.js",
-  "files": ["lib", "LICENSE", "index.js"],
+  "files": [
+    "lib",
+    "LICENSE",
+    "index.js"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
@@ -26,6 +30,9 @@
   "dependencies": {
     "@swc-node/core": "^1.8.2",
     "@swc-node/register": "^1.4.2"
+  },
+  "peerDependencies": {
+    "typescript": ">= 4.3"
   },
   "repository": {
     "type": "git",
@@ -39,6 +46,7 @@
     "url": "https://github.com/sponsors/Brooooooklyn"
   },
   "devDependencies": {
-    "webpack": "^5.66.0"
+    "webpack": "^5.70.0",
+    "typescript": "^4.6.2"
   }
 }

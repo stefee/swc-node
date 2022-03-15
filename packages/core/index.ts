@@ -55,7 +55,7 @@ function transformOption(path: string, options?: Options, jest = false): SwcOpti
     minify: false,
     isModule: true,
     module: {
-      type: 'commonjs',
+      type: options?.module ?? 'commonjs',
       noInterop: !opts.esModuleInterop,
     },
     sourceMaps: typeof opts.sourcemap === 'undefined' ? sourceMapDefault : opts.sourcemap,
